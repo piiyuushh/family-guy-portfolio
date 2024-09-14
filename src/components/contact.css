@@ -1,0 +1,33 @@
+.background-img {
+    background-image: url('/images/quagmire lado.jpg');
+    background-size: cover; /* Cover the entire container */
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribute space between elements */
+    height: 100vh; /* Ensure the container takes the full viewport height */
+    padding: 20px; /* Add some padding */
+}
+
+.contactheader {
+    margin-top: 20px; /* Adjust as needed */
+    width: 550px;
+    font-size: 60px; /* Adjust as needed */
+    text-align: left; /* Align text to the left */
+    color: #0c0c0c; /* Light blue color */
+    font-family: "Modak"; /* Custom font */
+    text-shadow: 2px 2px 2px #ffffff; /* Add text shadow */
+}
+
+.socials-right {
+    display: flex;
+    justify-content: center; /* Center the social icons horizontally */
+    gap: 10px; /* Add space between icons */
+    margin-bottom: 20px; /* Add some margin to the bottom */
+}
+
+.social-icons {
+    width: 50px; /* Adjust as needed */
+    height: 50px; /* Adjust as needed */
+}

@@ -1,0 +1,54 @@
+.home-container {
+    display: flex;
+    justify-content: space-between; /* Distribute space between items */
+    align-items: center;
+    padding-top: 100px; /* Add padding to avoid overlap with the navbar */
+    height: 100vh; /* Ensure the section takes the full viewport height */
+    background-color: transparent; /* Use the background color as needed */
+    width: 100%; /* Make the section take the full width */
+}
+
+.intro-section {
+    flex: 1; /* Allow the intro section to take available space */
+    text-align: center;
+    color: black;
+    margin-left: 20px; /* Add some margin to the left */
+}
+
+.characters {
+    display: flex;
+    justify-content: space-between; /* Distribute space between items */
+    align-items: center;
+    width: 100%; /* Make the characters take up the full width */
+}
+
+.batman-img {
+    /* display: block;
+    margin-left: 0; */
+    width: 50%; /* Adjust as needed */
+    left: 50%;
+}
+
+.pointing-img {
+    display: flex;
+    justify-content: flex-end;
+    width: 500px; /* Adjust as needed */
+    margin-right: 20px; /* Add some margin to the right */
+    transform: scaleX(-1); /* Flip the image horizontally */
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Add space between icons */
+    margin-left: 20px; /* Add some margin to the left */
+    height: 100px; /* Adjust the height as needed */
+    width: 100px; /* Adjust the width as needed */
+    color: black;
+}
+
+.about-header{
+    font-family: 'Modak';
+    color: #57A0FF;
+    text-shadow: 2px 2px 2px #ffffff;
+}

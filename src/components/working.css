@@ -1,0 +1,9 @@
+/* App.css */
+.background {
+    background-image: url('/images/working.jpg');
+    background-size: cover; /* Cover the entire container */
+    background-position: center;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    width: 100%;
+  }
