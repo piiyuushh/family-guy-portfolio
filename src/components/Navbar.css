@@ -36,3 +36,33 @@
     z-index: 1001; /* Ensure the image stays above the navbar */
     transform: rotate(180deg);
 }
+
+
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        height: auto; /* Adjust height for smaller screens */
+    }
+
+    .navbar-links {
+        flex-direction: row; /* Arrange links horizontally */
+        width: auto;
+        justify-content: left;
+        align-items: left;
+        gap: 10px; /* Space between links */
+    }
+
+    .navbar-links li {
+        width: auto;
+        display: flex;
+        justify-content: left;
+        align-items: left;
+    }
+
+    .navbar-img {
+        display: none;
+    }
+}

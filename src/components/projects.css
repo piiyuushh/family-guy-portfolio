@@ -23,7 +23,7 @@
     display: grid;
     grid-template-columns: repeat(2, 200px);
     grid-template-rows: repeat(2, 200px);
-    gap: 10px;
+    gap: 50px;
   }
   
   .project-box {
@@ -55,12 +55,12 @@
   
   .stewie-top {
     top: 60px;
-    left: 170px;
+    left: 180px;
   }
   
   .stewie-bottom {
     bottom: 60px;
-    left: 170px;
+    left: 180px;
   }
   
   .brian {
