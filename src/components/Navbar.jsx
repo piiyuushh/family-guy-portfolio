@@ -20,10 +20,10 @@ const Navbar = () => {
           </li>
           <li>
             <Link to="project" smooth={true} duration={500}>
-              Project
+              Projects
             </Link>
           </li>
-          <li>
+          <li id='contact'>
             <Link to="contact" smooth={true} duration={500}>
               Contact
             </Link>

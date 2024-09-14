@@ -61,7 +61,9 @@
         justify-content: left;
         align-items: left;
     }
-
+    .navbar-links #contact{
+        display: none;
+    }
     .navbar-img {
         display: none;
     }

@@ -8,6 +8,10 @@
     justify-content: space-between; /* Distribute space between elements */
     height: 150vh; /* Ensure the container takes the full viewport height */
     padding: 20px; /* Add some padding */
+    height: 150vh; /* Full viewport height */
+    display: flex;
+    width: 100%;
+    margin-top: 100px;
 }
 
 .contactheader {
@@ -30,4 +34,10 @@
 .social-icons {
     width: 50px; /* Adjust as needed */
     height: 50px; /* Adjust as needed */
+}
+
+@media screen and (max-width: 768px) {
+    .background-img {
+        display: none;
+    }
 }
