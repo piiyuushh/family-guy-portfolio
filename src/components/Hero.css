@@ -40,7 +40,7 @@
 .social-icons {
     display: flex;
     justify-content: center;
-    gap: 10px; /* Add space between icons */
+    gap: 5px; /* Add space between icons */
     margin-left: 20px; /* Add some margin to the left */
     height: 100px; /* Adjust the height as needed */
     width: 100px; /* Adjust the width as needed */

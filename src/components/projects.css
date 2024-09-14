@@ -86,8 +86,8 @@
 }
 .title{
     font-family: 'Modak';
-    color: #4da6ff;
-    /* text-shadow: 2px 2px 2px #ffffff; */
+    color: rgb(232, 185, 33);
+    text-shadow: 2px 2px 2px #131313;
     margin-top: 10px;
 }
 .description{

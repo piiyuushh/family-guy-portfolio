@@ -3,7 +3,7 @@ import "./contact.css"
 
 const Contact = () => {
   return (
-    <>
+    <div id='contact'>
       <div className="background-img">
         <div>
           <p className='contactheader left-5'>Wanna come to my apartment?</p>
@@ -20,7 +20,7 @@ const Contact = () => {
           </a>
         </div>
       </div>
-    </>
+    </div>
   )
 }
 

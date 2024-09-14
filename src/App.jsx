@@ -9,17 +9,26 @@ import Contact from './components/Contact'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
       <Navbar />
+      <div id="hero">
       <Hero />
+      </div>
+      
       <Herosecond />
-      <About />
+      <div id='about'>
+        <About />
+      </div>
       <Working />
-      <Projects />
+      <div id="project">
+        <Projects/>
+      </div>
+      
+      <div id='contact'>
       <Contact />
+      </div>
     </>
   )
 }

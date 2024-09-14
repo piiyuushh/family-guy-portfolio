@@ -2,7 +2,7 @@ import React from 'react'
 import "./projects.css"
 const Projects = () => {
   return (
-    <>
+    <div id="project">
       <div className="featured-container">
       <h1 className="featured-title">Featured Projects</h1>
       <div className="featured-projects">
@@ -42,7 +42,7 @@ const Projects = () => {
         </div>
       </div>
     </div>
-    </>
+    </div>
   )
 }
 
