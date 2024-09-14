@@ -17,7 +17,7 @@ const About = () => {
             <img
               class="object-cover object-center rounded"
               alt="hero"
-              src="/images/about.png"
+              src="/images/piyushTv.png"
             />
           </div>
           <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
