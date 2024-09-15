@@ -27,8 +27,12 @@
 .navbar-links li a{
     text-decoration: none;
     color: #57A0FF;
-    text-shadow: 2px 2px 2px #060505;
+    text-shadow: 2px 2px 2px #ffffff;
 } 
+.navbar-links li a:hover{
+    color:#ffffff;
+    text-shadow: 2px 2px 2px #000000;
+}
 .navbar-img {
     position: relative;
     top: -40px; /* Moves Brian upwards out of the navbar */
@@ -61,7 +65,7 @@
         justify-content: left;
         align-items: left;
     }
-    .navbar-links #contact{
+    .navbar-links .contact{
         display: none;
     }
     .navbar-img {

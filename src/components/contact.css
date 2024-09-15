@@ -2,16 +2,10 @@
     background-image: url('/images/quagmire lado.jpg');
     background-size: cover; /* Cover the entire container */
     background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; /* Distribute space between elements */
-    height: 150vh; /* Ensure the container takes the full viewport height */
-    padding: 20px; /* Add some padding */
-    height: 150vh; /* Full viewport height */
+    height: 100vh; /* Full viewport height */
     display: flex;
     width: 100%;
-    margin-top: 100px;
+    height: 800px;
 }
 
 .contactheader {
@@ -36,8 +30,45 @@
     height: 50px; /* Adjust as needed */
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
+    #contact{
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #dfdcd0;
+    }
     .background-img {
+        background-size: contain;
+        width: 100px;
+    }
+
+    .contactheader {
+        font-size: 20px;
+    }
+
+    .social-icons {
+        width: 30px; /* Adjust as needed for smaller screens */
+        height: 30px; /* Adjust as needed for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    #contact{
         display: none;
+    }
+    .background-img{
+        display: none;
+    }
+    .contactheader {
+        text-align: center;
+        font-size: 18px;
+        width: 500px;
+    }
+
+    .social-icons {
+        width: 25px; /* Adjust as needed for smaller screens */
+        height: 25px; /* Adjust as needed for smaller screens */
     }
 }

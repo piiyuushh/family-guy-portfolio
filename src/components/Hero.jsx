@@ -3,7 +3,7 @@ import "./Hero.css";
 const Hero = () => {
   return (
     <div id="hero">
-      <section>
+      <section className="hero-content">
         <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div>
             <img

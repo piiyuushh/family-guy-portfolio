@@ -8,3 +8,17 @@
     color: #000;
     font: bold;
 }
+@media screen and (max-width: 768px){
+    .about{
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #dfdcd0;
+    }
+    .topic{
+        font-size: 20px;
+    }
+    
+}
