@@ -13,7 +13,7 @@ const Projects = () => {
             <h5 className="title">Album</h5>
             <h5 className='techStacks'>Tech Stacks Used:</h5>
             <p className='description'>React, Tailwind Css</p>
-            <a href="https://piyushalbum.netlify.app/" target='_blank'><button className='projectButton'>click here</button></a>
+            <a href="https://album.piyushkarn.com.np/" target='_blank'><button className='projectButton'>click here</button></a>
           </div>
           <div className="project-box dark-grey">
           <h5 className="title">Gardening Website</h5>
